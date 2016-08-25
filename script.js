@@ -3,3 +3,10 @@ function itWorks () {
 	return x;
 }
 itWorks(1);
+
+$(document).ready(function(){
+$(".content").hide();
+$("button").click(function(){
+	$(".content").toggle("fast");
+	});
+});
